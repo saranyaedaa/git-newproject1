@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:#333;
+    color:white;
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+    background:url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200') no-repeat center;
+    background-size:cover;
+    color:white;
+}
+
+.hero button{
+    margin-top:15px;
+    padding:10px 20px;
+    border:none;
+    background:orange;
+    color:white;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+section{
+    padding:40px 20px;
+    text-align:center;
+}
+
+.menu-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.item{
+    background:white;
+    padding:20px;
+    width:200px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
